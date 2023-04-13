@@ -1,0 +1,722 @@
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+body{}
+
+
+.bike{
+    display: inline-flex;
+    background: url(../images/208674208000201.gif);
+    width: 100%;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.bikeimg img{
+    width: 50px;
+    transition: .3s linear;
+    margin-left: 20px;
+    margin-top: 20px;
+    background: rgb(209, 209, 209);
+    border-radius: 20px;
+    padding: 1px;
+}
+
+.bikeimg img:hover{
+    transform: scale(1.2); 
+}
+.gmail001{
+    margin-left: 100px;
+    margin-top: 20px;
+    color: white;
+}
+.gmail001:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    text-decoration: underline;
+}
+.fa-phone{
+    margin-top: 20px;
+    margin-left: 150px;
+    color: white;
+}
+.phon{
+    margin-top: 20px;
+    color: white; 
+    margin-left: 10px;
+}
+.phon:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+.foll{
+    margin-top: 20px;
+    color: white; 
+    margin-left: 210px; 
+}
+.foll:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    text-decoration: underline;
+}
+
+.facebo{
+    display: inline-flex;
+    margin-left: 160px;
+}
+.facebo a{
+    margin-right: 10px;
+    background: bisque;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 52px;
+    margin: 10px;
+    box-shadow: 1px 1px 2px 2px rgb(46, 45, 45);
+}
+
+.facebo a i{
+    margin-left: -1px;
+    transition: .3s linear;
+}
+.facebo a:hover i{
+    transform: scale(1.4);
+}
+
+.fa-facebook{
+    color: #1877F2;
+    font-size: 30px;
+}
+.fa-instagram{
+    color:purple;
+    font-size: 30px;
+}
+.fa-whatsapp{
+    color: #25D366;
+    font-size: 30px;
+}
+.fa-twitter{
+    color: #00ACEE;
+    font-size: 30px;
+}
+.fa-linkedin{
+    color: #0072B1;
+    font-size: 30px;
+}
+
+
+
+
+
+.logo{
+    display: inline-flex;  
+ }
+ .logo img{
+     width: 50px;
+     margin-top: -5px; 
+ }
+ .photo:hover{
+     transform: rotate(2880deg);
+     transition: 10s;
+ }
+
+
+ .header{}
+ .menubar{}
+ .menubar nav{}
+ .menubar nav ul{
+     text-align: center;
+ }
+
+ .hom{
+    margin-right: 5px;
+    text-decoration: none;
+    color: gray;
+ }
+ .menubar nav ul li{
+     display: inline;
+ }
+ .dropdown-menu:hover{
+    
+ }
+ .menubar nav ul li a{
+     background: blue;
+     color: white;
+     padding: 10px;
+     text-decoration: none;
+     text-transform: uppercase;
+ }
+ .menubar nav ul li a:hover{
+     background-color: purple;
+ }
+ .cap img{
+    width: 150px;
+    margin-left: 20px;
+ }
+
+ 
+ 
+ .form{
+     background:url(../images/Women_1920x933.jpg);
+     background-repeat:no-repeat;
+     background-size: 100% 100%;
+     padding: 10px; 
+     margin-left: 10px;
+ }
+ .formcontent:hover{
+     transform: scale(1.1);
+ }
+ .ok{
+     height: 600px;
+ }
+ .formcontent{
+     width: 220px;
+     background: transparent;
+     text-align: center;
+     box-shadow:1px 1px 3px 3px  black;
+     border-radius: 10px;
+     margin-left: 250px;
+     margin-top: 100px; 
+ }
+ .formcontent h1{
+    color: rgb(182, 182, 182);
+     font-size: 30px;
+     text-transform: capitalize;
+     margin-top: 20px;
+     margin-bottom: 10px;  
+ }
+ .formcontent input{
+     padding: 10px;
+     width: 80%;
+     background: transparent;
+     border:none;
+     outline:none;
+     border-bottom:1px solid rgb(182, 182, 182);
+ }
+ .formcontent button{
+     margin-top: 10px;
+     margin-bottom: 10px;
+     width: 80%;
+     padding: 10px;
+     background: transparent;
+     color: rgb(214, 213, 213);
+     border-color: rgb(214, 213, 213);
+ }
+ .formcontent input:hover{
+     background: rgba(201, 165, 74, 0.863);
+     border-radius: 20px;
+     transition: 1s;
+ }
+ .formcontent button:hover{
+     background: rgba(201, 165, 74, 0.863);
+ }
+ .formcontent input::placeholder{
+    color: rgb(214, 213, 213);
+ }
+
+
+
+ .bestproduct{
+    display: inline-flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100%;
+ }
+ .bproduct{
+    text-align: center;
+    margin-right: 15px;
+    width: 650px;
+ }
+ .bproduct h1{
+    color: gray;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+ }
+ .bproduct h1:hover{
+    color: rgb(15, 0, 219);
+    transition: 1s;
+ }
+ 
+ .bproduct p{
+    text-align: justify;
+    color: gray;
+    padding: 10px;
+ }
+ .bproduct p:hover {
+    color: rgb(15, 0, 219);
+    transition: 1s;
+ }
+ .bproduct button{
+    background: gray;
+    color: white;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 48%;
+    border: none;
+ }
+ .bproduct button:hover{
+    background: rgb(15, 0, 219);
+    color: white;
+    transition: 1s;
+ }
+ .bproduct img{
+    width: 100%;
+    height: 553px;
+    margin-left: 10px;
+    border-radius: 20px;
+ }
+ .bproduct img:hover{
+    box-shadow: 2px 2px 4px 4px gray;
+ }
+
+
+
+
+ .bestproduct01{
+    display: inline-flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100%;
+ }
+ .bproduct01{
+    text-align: center;
+    margin-right: 15px;
+    width: 650px;
+ }
+ .bproduct01 h1{
+    color: gray;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+ }
+ .bproduct01 h1:hover{
+    color: rgb(0, 179, 9);
+    transition: 1s;
+ }
+ .bproduct01 p{
+    text-align: justify;
+    color: gray;
+    padding: 10px;
+ }
+ .bproduct01 p:hover {
+    color: rgb(0, 179, 9);
+    transition: 1s;
+ }
+ .bproduct01 button{
+    background: gray;
+    color: white;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 48%;
+    border: none;
+ }
+ .bproduct01 button:hover{
+    background: rgb(0, 179, 9);
+    color: white;
+    transition: 1s;
+ }
+ .bproduct01 img{
+    width: 100%;
+    height: 553px;
+    margin-left: 10px;
+    border-radius: 20px;
+ }
+ .bproduct01 img:hover{
+    box-shadow: 2px 2px 4px 4px gray;
+ }
+
+
+
+
+ .row{
+    margin-top: 50px;
+    display: inline-flex; 
+    margin-left: -50px;
+}
+
+
+.card{
+    box-shadow: 3px 3px 8px black; 
+}
+
+.card:hover{
+    
+}
+.btn{
+    border: solid rgb(0, 179, 9) 1px;
+    box-shadow: .5px 1px 4px black;
+    transform: scale(1.0);
+    transition: 4s;
+}
+.btn:hover{
+    background: rgb(0, 179, 9);
+    color: white;
+    border-radius: 20px;
+    transform: scale(1.0);
+    transition: 1s;
+
+}
+
+.scl{
+    transform: scale(1.0);
+    transition: 7s; 
+}
+.scl:hover{
+    transform: scale(.5);
+    transition: 1s;
+    border-radius: 100px;
+}
+
+
+
+.cardpic{
+    display: inline-flex;
+    margin-top: 10px; 
+    margin-left: 40px;
+}
+
+.cp{
+    text-align: center;
+    width: 300px;
+    margin-right: -5px;
+    margin-left: 10px;
+    
+}
+.cp img{
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;  
+    box-shadow: 2px 2px 8px black;
+    transform: scale(1.0);
+    transition: 7s;
+}
+
+.cp img:hover{
+    transform: scale(.5);
+    transition: 1s;
+    border-radius: 50%;
+}
+.cp h5{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+
+
+.about{
+    display: inline-flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100%;
+}
+.abh1{
+    text-align: center;
+    margin-right: 15px;
+    width: 650px;
+}
+.abh1 h1{
+    color: gray;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.abh1 p{
+    text-align: justify;
+    color: gray;
+    padding: 10px;
+}
+.abh1 p:hover{
+    color: rgb(204, 204, 0);
+    transition: 1s;
+}
+.abh1 img{
+    width: 350px;
+    margin-left: 10px;
+}
+.abh1 img:hover{
+    transform: rotate(2880deg);
+    transition: 10s;
+}
+
+
+
+.client{
+    display: inline-flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100%;
+}
+.view{
+    text-align: center;
+    margin-right: 10px;
+    width: 320px;
+}
+.view p{
+    text-align: justify;
+    color: gray;
+    padding: 10px;
+}
+.view h6{}
+.view h2{
+    color: orange;
+}
+.view img{
+    width: 80px;
+}
+
+.view img:hover{
+    transform: rotate(2880deg);
+    transition: 10s;
+}
+
+.cle01{
+    font-family: 'Pacifico', cursive;
+}
+.cle01:hover{
+    color: rgb(0, 58, 0);
+    transform: scale(1.1);
+    transition: 1s;
+}
+.cle02{
+    font-family: 'Satisfy', cursive;
+}
+.cle02:hover{
+    color: rgb(0, 189, 202);
+    transform: scale(1.1);
+    transition: 1s;
+}
+.cle03{
+    font-family: 'Great Vibes', cursive;
+}
+.cle03:hover{
+    color: rgb(248, 0, 0);
+    transform: scale(1.1);
+    transition: 1s;
+}
+.cle04{
+    font-family: 'Sacramento', cursive;
+}
+.cle04:hover{
+    color: rgb(0, 129, 6);
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+.cle011{
+    font-family: 'Pacifico', cursive;
+    color: rgb(0, 58, 0);
+}
+.cle022{
+    font-family: 'Satisfy', cursive;
+    color: rgb(0, 189, 202);
+}
+.cle033{
+    font-family: 'Great Vibes', cursive;
+    color: rgb(248, 0, 0);
+}
+.cle044{
+    font-family: 'Sacramento', cursive;
+    color: rgb(0, 129, 6);
+}
+
+
+.map{
+    display: inline-flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.gmap{
+    margin-right: 35px;
+}
+.gmap iframe{}
+
+
+
+
+
+
+.footerone{
+    background: rgba(36, 35, 35, 0.831);
+    color: white;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+.footer{
+    display: inline-flex;
+    background: rgba(0, 0, 0, 0.831);
+    width: 100%;
+    margin-left: 10px;
+}
+
+.foot{
+    margin-left: -10px;
+    margin-top: 20px;
+}
+.foot h1{
+    color: white;
+}
+.fff{
+    margin-top: -19px;
+}
+.ffff{
+    margin-top: -19px;
+}
+.fffff{
+    margin-top: -19px;
+}
+.ffffff{
+    margin-top: -19px;
+}
+.fffffff{
+    margin-top: -19px;
+}
+
+
+.fa-file-invoice-dollar:hover{
+    transform: scale(1.4);
+    transition: 1s;
+}
+.fa-truck:hover{
+    transform: scale(1.4);
+    transition: 1s;
+}
+.fa-handshake-angle:hover{
+    transform: scale(1.4);
+    transition: 1s;
+}
+.fa-globe:hover{
+    transform: scale(1.4);
+    transition: 1s;
+}
+.foot h6{
+    color: white;
+    margin-left: 30px;
+    margin-right: 100px;
+}
+
+.foot h6:hover{
+    text-decoration: underline;
+}
+.foot h6{
+    color: gray;
+    margin-left: 120px;
+}
+.foot h5{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+    margin-left: 120px;
+}
+.foot h5:hover{
+    text-decoration: underline;
+}
+.who{
+    text-decoration: none;
+}
+.privacy{
+    text-decoration: none;
+}
+.order{
+    text-decoration: none;
+}
+.Warranty{
+    text-decoration: none;
+}
+.Terms{
+    text-decoration: none;
+}
+.Investors{
+    text-decoration: none;
+}
+.Events{
+    text-decoration: none;
+}
+.Hero{
+    text-decoration: none;
+}
+.Events{
+    text-decoration: none;
+}
+
+
+
+
+.con{
+    color: white;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.fab{
+    margin-left: 15px;
+    color: white;
+}
+
+.agun{
+    background: url(../images/208674208000201.gif);
+    margin-top: 10px;
+    text-align: center;
+    font-size: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    border-radius: 50px;
+}
+
+
+
+
+.under{
+    display: inline-flex;
+    margin-left: 10px;
+    background: rgba(247, 0, 0, 0.831);
+    width: 100%;
+    padding: 10px;
+}
+.und01{
+    margin-right: 50px;
+}
+.und01 i{
+    margin-left: 85px;
+    font-size: 40px;
+    color: white;
+}
+.und01 h6{
+    color: white;
+}
+
+
+
+
+.border{
+    width: 80px;
+    height: 80px;
+    background: rgb(228, 228, 228);
+}
+
+.border-top{
+    width: 80px;
+    height: 80px;
+    background: rgb(228, 228, 228);
+}
+.border-start{
+    width: 80px;
+    height: 80px;
+    background: rgb(228, 228, 228);
+}
+.border-bottom{
+    width: 80px;
+    height: 80px;
+    background: rgb(228, 228, 228);
+}
+.border-end{
+    width: 80px;
+    height: 80px;
+    background: rgb(228, 228, 228);
+}
